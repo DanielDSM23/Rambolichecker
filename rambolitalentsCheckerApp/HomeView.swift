@@ -69,7 +69,6 @@ struct homeView: View {
                     
                 }
             }
-            .offset(y: -120)
             .onAppear(){
                 UINavigationBar.appearance().largeTitleTextAttributes = [.font : UIFont.systemFont(ofSize: 20, weight: .bold)]
                 UIView.setAnimationsEnabled(true)
