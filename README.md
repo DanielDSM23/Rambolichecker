@@ -42,7 +42,7 @@ To get started with the Rambolitalents Checker App, follow these steps:
 
 ## Requirements
 
-- iOS 14.0+
+- iOS 15.0+
 - Xcode 12.0+
 
 ## License
