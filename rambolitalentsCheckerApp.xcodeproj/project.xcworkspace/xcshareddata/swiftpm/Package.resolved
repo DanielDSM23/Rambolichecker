@@ -1,0 +1,41 @@
+{
+  "pins" : [
+    {
+      "identity" : "codescanner",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/twostraws/CodeScanner.git",
+      "state" : {
+        "revision" : "bf5d7087015620b250ee6c865b3c9039fc159d1a",
+        "version" : "2.3.3"
+      }
+    },
+    {
+      "identity" : "customalert",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/divadretlaw/CustomAlert.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3feb992bb433cede735d2ebe665d1cf46f4dcc60"
+      }
+    },
+    {
+      "identity" : "windowreader",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/divadretlaw/WindowReader",
+      "state" : {
+        "revision" : "607785674f74a179ea8ce1c4a8aa6a255767f5c3",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "windowscenereader",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/divadretlaw/WindowSceneReader",
+      "state" : {
+        "revision" : "c4e3b7ceeb65dfed0fb05f739640cda45a67a5eb",
+        "version" : "2.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}
