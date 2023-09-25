@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		653DECD62ABCBC630093E3A8 /* productsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653DECD52ABCBC630093E3A8 /* productsView.swift */; };
+		653DECD62ABCBC630093E3A8 /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653DECD52ABCBC630093E3A8 /* ProductsView.swift */; };
 		658509342AB9BDCF00DFC8FC /* rambolitalentsCheckerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658509332AB9BDCF00DFC8FC /* rambolitalentsCheckerAppApp.swift */; };
-		658509362AB9BDCF00DFC8FC /* loadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658509352AB9BDCF00DFC8FC /* loadingView.swift */; };
+		658509362AB9BDCF00DFC8FC /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658509352AB9BDCF00DFC8FC /* LoadingView.swift */; };
 		658509382AB9BDD000DFC8FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 658509372AB9BDD000DFC8FC /* Assets.xcassets */; };
 		6585093B2AB9BDD000DFC8FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6585093A2AB9BDD000DFC8FC /* Preview Assets.xcassets */; };
 		658509452AB9BDD000DFC8FC /* rambolitalentsCheckerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658509442AB9BDD000DFC8FC /* rambolitalentsCheckerAppTests.swift */; };
 		6585094F2AB9BDD000DFC8FC /* rambolitalentsCheckerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6585094E2AB9BDD000DFC8FC /* rambolitalentsCheckerAppUITests.swift */; };
 		658509512AB9BDD000DFC8FC /* rambolitalentsCheckerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658509502AB9BDD000DFC8FC /* rambolitalentsCheckerAppUITestsLaunchTests.swift */; };
-		658B1CC42ABB5A58007577C9 /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658B1CC32ABB5A58007577C9 /* loginView.swift */; };
+		658B1CC42ABB5A58007577C9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658B1CC32ABB5A58007577C9 /* LoginView.swift */; };
 		658B1CC92ABBB1EB007577C9 /* CustomAlert in Frameworks */ = {isa = PBXBuildFile; productRef = 658B1CC82ABBB1EB007577C9 /* CustomAlert */; };
-		658B1CCB2ABBBCE9007577C9 /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658B1CCA2ABBBCE9007577C9 /* homeView.swift */; };
+		658B1CCB2ABBBCE9007577C9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658B1CCA2ABBBCE9007577C9 /* HomeView.swift */; };
 		659707B12AC1BE7C00493F63 /* sound in Resources */ = {isa = PBXBuildFile; fileRef = 659707B02AC1BE7C00493F63 /* sound */; };
 		65EA877C2ABDD8C6002CFBFD /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 65EA877B2ABDD8C6002CFBFD /* CodeScanner */; };
-		65EA877E2ABDE77B002CFBFD /* checkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EA877D2ABDE77B002CFBFD /* checkerView.swift */; };
+		65EA877E2ABDE77B002CFBFD /* CheckerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EA877D2ABDE77B002CFBFD /* CheckerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		653DECD52ABCBC630093E3A8 /* productsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productsView.swift; sourceTree = "<group>"; };
+		653DECD52ABCBC630093E3A8 /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
 		658509302AB9BDCF00DFC8FC /* rambolitalentsCheckerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rambolitalentsCheckerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		658509332AB9BDCF00DFC8FC /* rambolitalentsCheckerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rambolitalentsCheckerAppApp.swift; sourceTree = "<group>"; };
-		658509352AB9BDCF00DFC8FC /* loadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadingView.swift; sourceTree = "<group>"; };
+		658509352AB9BDCF00DFC8FC /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		658509372AB9BDD000DFC8FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6585093A2AB9BDD000DFC8FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		658509402AB9BDD000DFC8FC /* rambolitalentsCheckerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rambolitalentsCheckerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,10 +52,10 @@
 		6585094A2AB9BDD000DFC8FC /* rambolitalentsCheckerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rambolitalentsCheckerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6585094E2AB9BDD000DFC8FC /* rambolitalentsCheckerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rambolitalentsCheckerAppUITests.swift; sourceTree = "<group>"; };
 		658509502AB9BDD000DFC8FC /* rambolitalentsCheckerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rambolitalentsCheckerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		658B1CC32ABB5A58007577C9 /* loginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginView.swift; sourceTree = "<group>"; };
-		658B1CCA2ABBBCE9007577C9 /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
+		658B1CC32ABB5A58007577C9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		658B1CCA2ABBBCE9007577C9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		659707B02AC1BE7C00493F63 /* sound */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sound; sourceTree = "<group>"; };
-		65EA877D2ABDE77B002CFBFD /* checkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkerView.swift; sourceTree = "<group>"; };
+		65EA877D2ABDE77B002CFBFD /* CheckerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,12 +108,12 @@
 		658509322AB9BDCF00DFC8FC /* rambolitalentsCheckerApp */ = {
 			isa = PBXGroup;
 			children = (
-				65EA877D2ABDE77B002CFBFD /* checkerView.swift */,
-				658B1CCA2ABBBCE9007577C9 /* homeView.swift */,
-				653DECD52ABCBC630093E3A8 /* productsView.swift */,
+				65EA877D2ABDE77B002CFBFD /* CheckerView.swift */,
+				658B1CCA2ABBBCE9007577C9 /* HomeView.swift */,
+				653DECD52ABCBC630093E3A8 /* ProductsView.swift */,
 				658509332AB9BDCF00DFC8FC /* rambolitalentsCheckerAppApp.swift */,
-				658509352AB9BDCF00DFC8FC /* loadingView.swift */,
-				658B1CC32ABB5A58007577C9 /* loginView.swift */,
+				658509352AB9BDCF00DFC8FC /* LoadingView.swift */,
+				658B1CC32ABB5A58007577C9 /* LoginView.swift */,
 				658509372AB9BDD000DFC8FC /* Assets.xcassets */,
 				659707B02AC1BE7C00493F63 /* sound */,
 				658509392AB9BDD000DFC8FC /* Preview Content */,
@@ -285,11 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65EA877E2ABDE77B002CFBFD /* checkerView.swift in Sources */,
-				653DECD62ABCBC630093E3A8 /* productsView.swift in Sources */,
-				658509362AB9BDCF00DFC8FC /* loadingView.swift in Sources */,
-				658B1CC42ABB5A58007577C9 /* loginView.swift in Sources */,
-				658B1CCB2ABBBCE9007577C9 /* homeView.swift in Sources */,
+				65EA877E2ABDE77B002CFBFD /* CheckerView.swift in Sources */,
+				653DECD62ABCBC630093E3A8 /* ProductsView.swift in Sources */,
+				658509362AB9BDCF00DFC8FC /* LoadingView.swift in Sources */,
+				658B1CC42ABB5A58007577C9 /* LoginView.swift in Sources */,
+				658B1CCB2ABBBCE9007577C9 /* HomeView.swift in Sources */,
 				658509342AB9BDCF00DFC8FC /* rambolitalentsCheckerAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
