@@ -38,7 +38,7 @@ struct homeView: View {
                 
                 Image(systemName: isProductSelected ? "qrcode.viewfinder" : "hand.point.up.left.fill")
                     .font(.system(size: 250, weight: .ultraLight))
-                    .foregroundColor(Color(red: 0/255, green: 122/255, blue: 100))
+                    .foregroundColor(.blue)
                     .opacity(isAnimating ? 1.0 : 0.1) // Adjust the opacity values as desired
                     .onAppear() {
                         withAnimation(Animation.easeInOut(duration: 2).repeatForever(autoreverses: true)) {
@@ -59,7 +59,7 @@ struct homeView: View {
                 .sheet(isPresented: $showSelectView, onDismiss: {
                     if(selectedProductDetails.productIdSelected != 0 && selectedProductDetails.productNameSelected != ""){
                         print("test")
-                        selectText = "Vous avez sélectionné  :\n"+selectedProductDetails.productNameSelected+". \nVous pouvez maintenant procéder au scan."
+                        selectText = "Vous avez sélectionné  :\n\n"+selectedProductDetails.productNameSelected+". \n\nVous pouvez maintenant procéder au scan."
                         isProductSelected = true
                         firstButtonSelect = "Modifier le choix"
                         secondButtonSelect = "Accéder au scanner"
@@ -144,9 +144,19 @@ struct homeView: View {
             }
             .tabItem {
                 Image(systemName: "keyboard")
+                
                 Text("Ecrire")
             }
             .tag(2)
+        }.onAppear {
+            let appearance = UITabBarAppearance()
+            appearance.backgroundEffect = UIBlurEffect(style: .systemUltraThinMaterial)
+            appearance.backgroundColor = UIColor(Color.white.opacity(0.2))
+            
+            // Use this appearance when scrolling behind the TabView:
+            UITabBar.appearance().standardAppearance = appearance
+            // Use this appearance when scrolled all the way up:
+            UITabBar.appearance().scrollEdgeAppearance = appearance
         }
     }
 }
