@@ -29,11 +29,12 @@ struct homeView: View {
     var body: some View {
         TabView(selection: $selectedTab) {
             VStack{
-                NavigationView {
-                    Text(selectText).font(.system(size: 20)).multilineTextAlignment(.center)
-                        .navigationTitle(Text("Bienvenue "+nameUser+" 👋"))
-                    
-                }
+                Text("  Bienvenue "+nameUser+" 👋")
+                    .font(.system(size: 25, weight: .bold))
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                Text(selectText).font(.system(size: 20)).multilineTextAlignment(.center)
+                    .frame(height: 200)
+                    .clipped()
                 
                 Image(systemName: isProductSelected ? "qrcode.viewfinder" : "hand.point.up.left.fill")
                     .font(.system(size: 250, weight: .ultraLight))
@@ -70,7 +71,6 @@ struct homeView: View {
                 }
             }
             .onAppear(){
-                UINavigationBar.appearance().largeTitleTextAttributes = [.font : UIFont.systemFont(ofSize: 20, weight: .bold)]
                 UIView.setAnimationsEnabled(true)
             }
             .tabItem {
@@ -81,7 +81,7 @@ struct homeView: View {
             VStack{
                 if(selectedTab == 1){
                     VStack{
-                        CodeScannerView(codeTypes: [.qr], scanMode: .continuous, scanInterval: 3, shouldVibrateOnSuccess: false) { response in
+                        CodeScannerView(codeTypes: [.qr], scanMode: .continuous, scanInterval: 5, showViewfinder : true, shouldVibrateOnSuccess: true) { response in
                         if case let .success(result) = response {
                             ticketCode = result.string
                             print(ticketCode)
@@ -90,7 +90,10 @@ struct homeView: View {
                                 codeScanned = true
                             }
                         }
-                    }.frame(width: 400, height: 500)
+                    }
+                        .frame(width: UIScreen.main.bounds.width - 50, height: UIScreen.main.bounds.width - 50)
+                        .clipped()
+                        
                     }.sheet(isPresented: $showTicketView, onDismiss: {
                         codeScanned = false
                     }){

@@ -33,6 +33,8 @@ struct productsView: View {
                             },
                             placeholder: {
                                 ProgressView()
+                                    .frame(maxWidth: 1920/20, maxHeight: 1080/20) 
+                                    .padding(.trailing, 10)
                             }
                         )
                         
