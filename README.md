@@ -34,7 +34,7 @@ To get started with the Rambolitalents Checker App, follow these steps:
 1. Clone the repository:
 
  ```shell 
- git clone https://github.com/DanielDSM23/Tic-Tac-Toe_IOS.git
+ git clone https://github.com/DanielDSM23/Rambolichecker.git
  ```
 
 
