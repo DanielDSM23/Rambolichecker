@@ -45,10 +45,6 @@ To get started with the Rambolitalents Checker App, follow these steps:
 - iOS 15.0+
 - Xcode 12.0+
 
-## License
-
-This project is licensed under the [License Name] - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - The app utilizes the [CustomAlert](https://github.com/divadretlaw/CustomAlert) library for custom alert presentations.
