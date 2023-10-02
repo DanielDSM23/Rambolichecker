@@ -15,7 +15,7 @@ The Rambolitalents Checker App is a SwiftUI-based mobile application that allows
     - **Selectionner Tab**: Allows users to choose a product from a list retrieved from "https://checker.rambolitalents.daniel-monteiro.fr/getProducts.php," which returns a JSON response containing product data.
     - ![HomeView](https://i.ibb.co/WGp4fDL/HomeView.png)
     - **Scanner Tab**: In this tab, users can scan a ticket encoded in base64. This functionality is implemented using the "CodeScannerView" from the "CodeScanner" library.
-    - ![HomeView](https://i.ibb.co/TgWfkPY/Scan.jpg) 
+    - ![HomeView](https://i.ibb.co/31yMXWH/Scan-comp.jpg) 
     - **Ecrire Tab**: Allows users to manually enter a 15-character ticket code.
     - ![HomeView](https://i.ibb.co/JmdhxYF/Ecrire.png)
 - **CheckerView**: When a ticket is scanned in the "Scanner" tab, the `CheckerView` is presented as a sheet. It sends a POST request to "https://checker.rambolitalents.daniel-monteiro.fr/checkTickets.php" to validate the ticket. Depending on the result:
